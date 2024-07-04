@@ -1,10 +1,25 @@
-h3{
-    font-weight: bold;
+h2{
     text-align: center;
-    background-color: blueviolet;
-    color: brown;
+    text-transform: capitalize;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
 }
-img{
-    height: 350px;
-    width: 400px;
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(56, 235, 109);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div{
+    text-align: center;
+    padding: 4px;
+    background-image: url(nature.jpg);
+    opacity: 0.7;
+}
+input:hover{
+    border: 1px solid rgb(242, 53, 53);
+}
+label,input{
+    padding: 4px;
+    border-radius: 7px;
 }
